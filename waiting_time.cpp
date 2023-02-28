@@ -1,15 +1,14 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-
-int main() {
-	// your code goes here
-	int n;
-	cin>>n;
-	while(n--){
-	    int a,b;
-	    cin>>a>>b;
-	    cout<<(7-b)<<endl;
-	    
+int main() 
+{
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int k,x;
+	    cin>>k>>x;
+	    cout<<(7*k-x)<<endl;
 	}
 	return 0;
 }
